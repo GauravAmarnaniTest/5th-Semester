@@ -1,4 +1,4 @@
-//Performed by Gaurav Amarnani
+//Author : Gaurav Amarnani.
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.*;

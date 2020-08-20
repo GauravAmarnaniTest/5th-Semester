@@ -1,5 +1,5 @@
 //Using CURSOR with Stored Procedure to get all Employee info on the basis of user provided Salary.
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import static java.lang.System.out;

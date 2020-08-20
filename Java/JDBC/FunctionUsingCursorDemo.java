@@ -1,7 +1,7 @@
 //Using Function to delete all the employees with a particular Salary range provided by user and
 //display the number of Employee data deleted using SQL%ROWCOUNT.
 
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import java.sql.Connection;

@@ -1,6 +1,6 @@
 //We can't Update Data in the JDBCRowSet for Oracle Database.
 
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import javax.sql.rowset.RowSetFactory;
 import javax.sql.rowset.RowSetProvider;

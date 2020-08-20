@@ -1,5 +1,5 @@
 //Using Function to get the average of Salary of two Employees whose ID is provided by user.
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import java.sql.Connection;

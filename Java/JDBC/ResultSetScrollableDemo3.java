@@ -1,7 +1,7 @@
 //This is a program to show that Type 4 Driver does not support Updatabe ResultSet and hence 
 //does not support updateXxx() , insertRow() , deleteRow() methods.
 
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import java.sql.Connection;

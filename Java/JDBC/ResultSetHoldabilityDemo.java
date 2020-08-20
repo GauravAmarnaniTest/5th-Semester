@@ -1,7 +1,7 @@
 //This is a program to demonstrate that Oracle & MySQL Database both only support 
 //HOLD_CURSORS_AFTER_COMMIT.
 
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import java.sql.Connection;

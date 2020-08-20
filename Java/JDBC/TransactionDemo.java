@@ -1,4 +1,4 @@
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;

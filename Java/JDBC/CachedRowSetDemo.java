@@ -1,5 +1,6 @@
 //To show Database connectivity even after closing the connection.
 
+//Author : Gaurav Amarnani.
 
 import java.sql.Connection;
 import java.sql.DriverManager;

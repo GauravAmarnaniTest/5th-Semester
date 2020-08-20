@@ -1,4 +1,4 @@
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetFactory;

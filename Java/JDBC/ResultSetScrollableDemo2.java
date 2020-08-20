@@ -1,6 +1,6 @@
 //This is a program to show that refreshRow() is not supported by Type 4 Driver.
 
-package com.jdbc.byGaurav;
+//Author : Gaurav Amarnani.
 
 import java.sql.DriverManager;
 import java.sql.Connection;

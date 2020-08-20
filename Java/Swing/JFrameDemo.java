@@ -1,7 +1,5 @@
 //Author : Gaurav Amarnani.
 
-package com.byGaurav;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -15,7 +13,7 @@ public class JFrameDemo extends JFrame
 		jfd.setTitle("JFrame Demo.");
 		jfd.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	 public JFrameDemo()
+	public JFrameDemo()
 	{
 		Container ct = getContentPane();
 		JLabel jl = new JLabel("Swing Components have a pluggable look and feel.");

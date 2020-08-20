@@ -13,6 +13,8 @@ public class AppletDemo extends Applet
 {
 	public void init()
 	{
+		setBackground(Color.BLACK);
+		setForeground(Color.YELLOW);
 		out.println("----->init().");
 	}
 	public void start()

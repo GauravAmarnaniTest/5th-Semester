@@ -14,6 +14,8 @@ public class ButtonDemo extends Applet implements ActionListener
 	String msg;
     	public void init() 
     	{
+		setBackground(Color.BLACK);
+		setForeground(Color.YELLOW);
         	Label l = new Label("Choose any one from below: ");
         	yes = new Button("Yes");
         	no = new Button("No");

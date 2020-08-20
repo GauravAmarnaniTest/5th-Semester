@@ -12,6 +12,8 @@ public class BorderLayoutDemo extends Applet
 {
 	public void init() 
     	{
+		setBackground(Color.BLACK);
+		setForeground(Color.YELLOW);
 		setLayout(new BorderLayout());
         	add(new Label("North Border Layout."), BorderLayout.NORTH);
         	add(new Label("South Border Layout."), BorderLayout.SOUTH);

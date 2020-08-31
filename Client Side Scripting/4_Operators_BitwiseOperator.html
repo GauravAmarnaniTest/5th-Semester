@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bitwise Operator : 
+        </title>
+    </head>
+    <body>
+        <h1>This is an example to demonstrate the use of Bitwise Operator in Javascript: </h1>
+        <script lang="Javascript" type="text/javascript">
+        var x = 5;
+        document.write("<br> x = " + x);
+        //AND : 5 (0101) AND 1 (0001) = 1 (0001)
+        /*Explanation : 
+            5       1       
+                      
+            0   *   0   =   0
+            1   *   0   =   0
+            0   *   0   =   0
+            1   *   1   =   1
+            5   *   1   =   1 (0001)
+        */
+        document.write("<br> AND (x & 1) = " + (x & 1));
+        //OR : 5 (0101) OR 1 (0001) = 5 (0101)
+        /*Explanation : 
+            5       1       
+                       
+            0   |   0   =   0
+            1   |   0   =   1
+            0   |   0   =   0
+            1   |   1   =   1
+            5   |   1   =   5 (0101)
+        */
+        document.write("<br> OR (x | 1) = " + (x | 1));
+        //NOT : x = NOT 7 (0111) = 8 (1000)
+        /*Explaination : 
+            x = NOT(7) = Opposite of every bit of 7.
+            7   NOT     = 
+            0   ~       1
+            1   ~       0
+            1   ~       0
+            1   ~       0
+            7   ~       8 (1000).
+        */
+        document.write("<br> NOT (x =~ 1) = " + (x =~ 7));
+        //XOR : 5 (0101) XOR 1 (0001) = 1 (0001)
+        /*Explaination : 
+               5        1                           =
+            if(0   ==   0)   then 0     else 1      0
+            if(1   ==   0)   then 0     else 1      1
+            if(0   ==   0)   then 0     else 1      0
+            if(1   ==   1)   then 1     else 1      0
+            Hence   5   ^   1   = 4 (0100).
+        */
+        document.write("<br> XOR (x ^ 1) = " + (x = 5 ^ 1));
+        //Left Shift : 5 (0101) BY 1 (0001) = 10 (1010)
+        /*Explaination : 
+            5
+            1st 2nd 3rd 4th 5th 6th 7th 8th 
+            0   1   0   1   0   0   0   0
+
+            After pushing one bit from the right side to the left :
+
+            1st  <- 2nd  <- 3rd  <- 4th  <- 5th  <- 6th  <- 7th  <- 8th 
+            1    <- 0    <- 1    <- 0    <- 0    <- 0    <- 0    <- 0 
+            
+            Now the result is : 
+            10 (1010).
+        */
+        document.write("<br> Left Shift (x << 1) = " + (x = 5 << 1));
+        //Right Shift : 5 (0101) BY 1 (0001) = 2 (0010)
+        /*Explaination : 
+            5
+            1st 2nd 3rd 4th 5th 6th 7th 8th 
+            0   1   0   1   0   0   0   0
+
+            After pushing one bit from the left side to the right :
+
+            1st  -> 2nd  -> 3rd  -> 4th  -> 5th  -> 6th  -> 7th  -> 8th 
+            0    -> 0    -> 1    -> 0    -> 1    -> 0    -> 0    -> 0 
+            
+            Now the result is : 
+            2 (0010).
+        */
+        document.write("<br> Right Shift (x >> 1) = " + (x = 5 >> 1));
+        </script>
+        <h1>Performed by Gaurav Sanjay Amarnani, Roll no 21.</h1>
+    </body>
+</html>

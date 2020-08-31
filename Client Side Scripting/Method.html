@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Method for Object.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can declare and intiale a method for an Object in Javascript.</h1>
+        <script type="text/javascript" lang="Javascript">
+            var student =
+            {
+                name : "Gaurav",
+                age : 18,
+                smart : true,
+                displayStudentInfo : function()
+                {
+                    return("<br>Name : " + this.name + "<br>Age : " + this.age + "<br>Smart : " + this.smart);
+                }
+            };
+            document.write("Student Info : " + student.displayStudentInfo());
+        </script>
+        <body>
+            <h1>Performed by Gaurav Sanjay Amarnani, Roll no 21.</h1>
+        </body>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Reversing Array Elements.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can reverse elements using reverse() in an Array in Javascript.</h1>
+        <script type="text/javascript" lang="Javascript">
+            var numbers = new Array(3 , 90 , 28 , 75 , 18 , 0 , 2 , -97 , -16 , 98 , 90);
+            var num = 0;
+            document.write("Array of numbers before sorting : ");
+            while(num < numbers.length) {
+                document.write("<br>Number at " + (num+1) + " is : " + numbers[num]);
+                num++;
+            }
+            num = 0;
+            document.write("<br><br><br>Array of numbers after sorting : ")
+            numbers.sort(function(a,b){return a-b});
+            while(num < numbers.length) {
+                document.write("<br>Number at " + (num+1) + " is : " + numbers[num]);
+                num++;
+            }
+            num = 0;
+            numbers.reverse();
+            document.write("<br><br><br>Array of numbers after reversing : ")
+            while(num < numbers.length) {
+                document.write("<br>Number at " + (num+1) + " is : " + numbers[num]);
+                num++;
+            }
+        </script>
+        <h1>Performed by Gaurav Sanjay Amarnani, Roll no 21.</h1>
+    </body>
+</html>

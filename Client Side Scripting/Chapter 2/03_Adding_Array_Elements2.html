@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Adding Array Elements.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can add elements using unshift() in an Array in Javascript.</h1>
+        <script type="text/javascript" lang="Javascript">
+            var num = 0;
+            var fruits = new Array("Apple" , "Banana");
+            document.write("Fake Best Fruits : ");
+            while(num < fruits.length) {
+                document.write("<br>" + (num+1) + " Fruit : " + fruits[num]);
+                num++;
+            }
+            num = 0;
+            fruits.unshift("Pear" , "Grapes");
+            document.write("<br>Real Best Fruits : ");
+            while(num < fruits.length) {
+                document.write("<br>" + (num+1) + " Fruit : " + fruits[num]);
+                num++;
+            }
+        </script>
+        <h1>Performed by Gaurav Sanjay Amarnani, Roll no 21.</h1>
+    </body>
+</html>

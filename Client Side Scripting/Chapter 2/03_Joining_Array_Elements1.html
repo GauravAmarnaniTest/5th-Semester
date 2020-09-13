@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Joining Array Elements.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can join elements using join() in an Array in Javascript.</h1>
+        <script type="text/javascript" lang="Javascript">
+            var num = 0;
+            var words = new Array();
+            words[0] = "My";
+            words[1] = "name";
+            words[2] = "is";
+            words[3] = "Gaurav";
+            words[4] = "Amarnani.";
+            document.write("<br>The Array before joining : ");
+            while(num < words.length) {
+                document.write("<br>Word " + (num+1) + " is : " + words[num]);
+                num++;
+            }
+            var name = words.join(" ");
+            document.write("<br>The Array after joining : " + name);
+        </script>
+        <h1>Performed by Gaurav Sanjay Amarnani, Roll no 21.</h1>
+    </body>
+</html>

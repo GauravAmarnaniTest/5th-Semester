@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Getter method for Property.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can get property using getter method in Javascript.</h1>
+        <script text="javascript/text" lang="javascript">
+            var car = {
+                color : "Red" ,
+                brand : "Ferrari" ,
+                get company() {
+                    return this.brand;
+                }
+            };
+
+            //Displaying Object using a getter.
+            document.write("Company : " + car.company);
+        </script>
+        <h1>Performed by Guarav Amarnani , Roll no 21.</h1>
+    </body>
+</html>

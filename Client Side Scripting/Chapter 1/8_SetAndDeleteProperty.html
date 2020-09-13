@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Set and Delete Property.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can set and delete property in Javascript.</h1>
+        <script text="javascript/text" lang="javascript">
+            
+            //Example of setting the properties : 
+            var book = {
+                price : 100 , 
+                name : "Looking for Alaska" , 
+                author : "John Green"
+            };
+            var price = book.price;
+            var author = book[author];            
+
+            //Example of deleting the properties : 
+            var car = {
+                color : "Red" ,
+                brand : "Ferrari"
+            };
+            document.write("Color : " + car.color + "<br>Brand : " + car.brand);
+            document.write(delete car.brand);
+            document.write(delete car[color]);    
+        </script>
+        <h1>Performed by Guarav Amarnani , Roll no 21.</h1>
+    </body>
+</html>

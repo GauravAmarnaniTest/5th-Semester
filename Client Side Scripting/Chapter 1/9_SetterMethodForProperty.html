@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Setter method for Property.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can set property using setter method in Javascript.</h1>
+        <script text="javascript/text" lang="javascript">
+            var car = {
+                color : "Red" ,
+                brand : "Ferrari" ,
+                set company(value) {
+                    this.brand = value;
+                }
+            };
+
+            //Displaying Object using a getter :
+            document.write("Company : " + car.company);
+
+            //Changing the Object property using setter :
+            car.company = "Tata";
+
+            //Displaying Object using a getter :
+            document.write("Company : " + car.company);
+        </script>
+        <h1>Performed by Guarav Amarnani , Roll no 21.</h1>
+    </body>
+</html>

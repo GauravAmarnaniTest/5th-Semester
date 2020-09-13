@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Author : Gaurav Amarnani.-->
+<html>
+    <head>
+        <title>Removing First Array Elements.</title>
+    </head>
+    <body>
+        <h1>This is an example to show how we can remove first element of an Array using shift() in Javascript.</h1>
+        <script type="text/javascript" lang="Javascript">
+            var num = 0;
+            var numbers = new Array();
+            numbers[0] = "Zeroth";
+            numbers[1] = "First";
+            numbers[2] = "Second";
+            numbers[3] = "Third";
+            numbers[4] = "Fourth";
+            document.write("<br>Array of numbers before removing first element : ");
+            while(num < numbers.length) {
+                document.write("<br>Element " + (num+1) + " is : " + numbers[num]);
+                num++;
+            }
+            num = 0;
+            numbers.shift();
+            document.write("<br>Array of numbers after removing first element : ");
+            while(num < numbers.length) {
+                document.write("<br>Element " + (num+1) + " is : " + numbers[num]);
+                num++;
+            }
+        </script>
+        <h1>Performed by Gaurav Sanjay Amarnani, Roll no 21.</h1>
+    </body>
+</html>
